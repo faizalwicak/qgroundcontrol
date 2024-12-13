@@ -212,7 +212,7 @@ Rectangle {
                         anchors.leftMargin: _smallMargins
                         anchors.left:       parent.left
                         anchors.top:        parent.top
-                        text:               _videoCaptureIdle ? "00:00:00" : _camera.recordTimeStr
+                        text:               _videoCaptureIdle ? "Cam Trigger" : _camera.recordTimeStr
                         font.pointSize:     ScreenTools.largeFontPointSize
                         visible:            _cameraInVideoMode
                     }
